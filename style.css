@@ -1,0 +1,35 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.right-links {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 18px;
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 14px;
+  text-decoration: none;
+}
