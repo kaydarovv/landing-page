@@ -6,20 +6,28 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.header {
+/*HEADER*/
+
+header {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: space-around;
   align-items: center;
+  color: #f9faf8;
+  font-size: 24px;
 }
 
 .logo {
   width: 100px;
 }
 
-.right-links {
+ul {
   display: flex;
   list-style: none;
 }
@@ -32,4 +40,16 @@ a {
   color: #e5e7eb;
   font-size: 14px;
   text-decoration: none;
+}
+
+/*SUB-HEADER*/
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9faf8;
+  font-size: 24px;
 }
