@@ -8,7 +8,7 @@ body {
   border: 0;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
 }
 
 /*HEADER*/
@@ -21,10 +21,6 @@ header {
   align-items: center;
   color: #f9faf8;
   font-size: 24px;
-}
-
-.logo {
-  width: 100px;
 }
 
 ul {
@@ -44,12 +40,52 @@ a {
 
 /*SUB-HEADER*/
 
-header {
+.sub-header {
   background-color: #1f2937;
+  padding: 5%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   color: #f9faf8;
-  font-size: 24px;
+}
+
+.container {
+  max-width: 30%;
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.big-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 700;
+  height: 30%;
+}
+
+.main-text {
+  color: #e5e7eb;
+  font-size: 14px;
+  height: 30%;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 4px;
+  color: #e5e7eb;
+  font-weight: 700;
+  width: 100px;
+  padding: 6px;
+  height: 20%;
+}
+
+.container.image {
+  background-color: #ccc;
+  min-width: 300px;
+  min-height: 200px;
+  text-align: center;
+  color: #1f2937;
 }
