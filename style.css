@@ -99,6 +99,7 @@ button {
   flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
+  gap: 30px;
 }
 
 .content .title {
@@ -128,4 +129,30 @@ button {
 
 .box-description {
   text-align: center;
+}
+
+/*QUOTE*/
+
+.quote-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  align-content: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.quote {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: right;
 }
