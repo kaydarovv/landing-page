@@ -156,3 +156,30 @@ button {
   color: #1f2937;
   text-align: right;
 }
+
+.banner {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.bluebox {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  gap: 50px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.banner-btn {
+  border: 2px solid #e5e7eb;
+}
