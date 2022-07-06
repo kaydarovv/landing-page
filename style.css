@@ -167,7 +167,7 @@ button {
 
 .bluebox {
   background-color: #3882f6;
-  color: #e5e7eb;
+  color: #f9faf8;
   padding: 20px 80px;
   display: flex;
   align-items: center;
@@ -181,5 +181,13 @@ button {
 }
 
 .banner-btn {
-  border: 2px solid #e5e7eb;
+  border: 2px solid #f9faf8;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
